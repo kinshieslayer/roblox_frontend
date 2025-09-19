@@ -17,7 +17,7 @@ export function buildApiUrl(path: string): string {
     if (typeof window !== "undefined" && window.location.hostname === "localhost") {
       base = "http://127.0.0.1:5000";
     } else {
-      base = "https://your-backend-name.onrender.com"; // ⬅️ replace with your Render backend URL
+      base = "https://roblox-backend-nb4s.onrender.com"; // ⬅️ replace with your Render backend URL
     }
   }
 

@@ -6,7 +6,7 @@ const GameHeader = () => {
     <div className="relative">
       <div className="bg-gray-800 text-white px-4 py-2 flex items-center">
         <div className="flex items-center mr-4">
-          <img src="/store images/roblox-logo.jpg" alt="Roblox Logo" className="h-6 w-6 mr-2 rounded-sm object-contain" />
+          <img src="/store-images/roblox-logo.jpg" alt="Roblox Logo" className="h-6 w-6 mr-2 rounded-sm object-contain" />
           <span className="mr-6">Charts</span>
           <span className="mr-6">Marketplace</span>
           <span className="mr-6">Create</span>

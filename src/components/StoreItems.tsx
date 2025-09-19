@@ -8,62 +8,62 @@ const StoreItems = ({ onBuyClick }: StoreItemsProps) => {
   const items = [
     {
       name: "Vehicle Upgrade",
-      image: "/store images/Vehicle Upgrade.webp",
+      image: "/store-images/Vehicle-Upgrade.webp",
       isFree: true
     },
     {
       name: "Vehicle Speed Unlocked",
-      image: "/store images/Vehicle Speed Un.webp",
+      image: "/store-images/Vehicle-Speed-Un.webp",
       isFree: true
     },
     {
       name: "Premium",
-      image: "/store images/premuim.webp",
+      image: "/store-images/premuim.webp",
       isFree: true
     },
     {
       name: "Music Unlocked",
-      image: "/store images/msuic.webp",
+      image: "/store-images/msuic.webp",
       isFree: true
     },
     {
       name: "On Demand Fire",
-      image: "/store images/on demand fire.webp",
+      image: "/store-images/on-demand-fire.webp",
       isFree: true
     },
     {
       name: "Horse Unlocked",
-      image: "/store images/horse unlocked.webp",
+      image: "/store-images/horse-unlocked.webp",
       isFree: true
     },
     {
       name: "Land Unlocked",
-      image: "/store images/land unlocked.webp",
+      image: "/store-images/land-unlocked.webp",
       isFree: true
     },
     {
       name: "Faces Unlocked",
-      image: "/store images/faces uncloked.webp",
+      image: "/store-images/faces-uncloked.webp",
       isFree: true
     },
     {
       name: "Vehicle Pack",
-      image: "/store images/vehicle pack.webp",
+      image: "/store-images/vehicle-pack.webp",
       isFree: true
     },
     {
       name: "Penthouse",
-      image: "/store images/penthouse.webp",
+      image: "/store-images/penthouse.webp",
       isFree: true
     },
     {
       name: "Theme Pack",
-      image: "/store images/theme pack.webp",
+      image: "/store-images/theme-pack.webp",
       isFree: true
     },
     {
       name: "Disaster Pass",
-      image: "/store images/disaster pack.webp",
+      image: "/store-images/disaster-pack.webp",
       isFree: true
     }
   ];

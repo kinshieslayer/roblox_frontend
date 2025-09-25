@@ -42,7 +42,7 @@ const ImageSlider = () => {
                 <img 
                   src={image} 
                   alt={`Game Screenshot ${index + 1}`}
-                  className="w-full h-[300px] object-cover"
+                  className="w-full h-40 sm:h-60 md:h-[300px] object-cover rounded-md"
                 />
               </div>
             </div>

@@ -37,22 +37,21 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-100 overflow-x-hidden w-full">
       <GameHeader />
-      
-      <div className="max-w-4xl mx-auto bg-white pb-8 shadow-md">
+
+      <div className="max-w-4xl mx-auto bg-white pb-8 shadow-md w-full overflow-x-hidden">
         <TabNavigation 
           selectedTab={selectedTab} 
           onTabChange={setSelectedTab} 
         />
-        
-    
+
         {selectedTab === "About" && <AboutSection />}
-        
+
         {selectedTab === "Store" && (
           <StoreItems onBuyClick={handleBuyClick} />
         )}
-        
+
         {selectedTab === "Servers" && (
           <div className="p-6 text-center">
             <h2 className="text-2xl font-bold">Game Servers</h2>
